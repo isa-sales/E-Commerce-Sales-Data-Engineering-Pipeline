@@ -69,7 +69,7 @@ Este projeto simula um ambiente real de Engenharia de Dados.
 
 ## Estrutura do Projeto
 
-ecommerce-data-pipeline/
+```ecommerce-data-pipeline/
 │
 ├── dags/
 │ └── ecommerce_pipeline.py
@@ -85,6 +85,7 @@ ecommerce-data-pipeline/
 ├── docker-compose.yml
 ├── requirements.txt
 └── README.md
+```
 
 ## 📊 KPIs Monitorados
 
@@ -144,7 +145,7 @@ Este projeto demonstra:
 - Migrar para ambiente em nuvem (AWS ou GCP)
 
 - Adicionar monitoramento e logs estruturados
-- 
+
 
 ### 👩‍💻 Autora
 
