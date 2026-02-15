@@ -1,4 +1,3 @@
-# E-Commerce-Sales-Data-Engineering-Pipeline
 # 🛒 E-Commerce Sales Data Engineering Pipeline
 
 Pipeline completo de Engenharia de Dados para processamento e análise de dados de vendas de e-commerce, utilizando Apache Airflow, Docker, PostgreSQL e Power BI.
@@ -107,49 +106,47 @@ ecommerce-data-pipeline/
 git clone https://github.com/seuusuario/ecommerce-data-pipeline.git
 ```
 ## Subir o ambiente com Docker
-docker-compose up
+```bash docker-compose up ```
 
 ## Acessar o Airflow
 Acesse no navegador:
-
 http://localhost:8080
+
 ## Usuário padrão:
-
 airflow
+
 ## Senha padrão:
-
 airflow
-##Ativar a DAG
 
-Ativar a DAG:
-
+## Ativar a DAG
 ecommerce_sales_pipeline
 
 ### Resultados
 Este projeto demonstra:
 
-Construção de pipeline de dados ponta a ponta
+- Construção de pipeline de dados ponta a ponta
 
-Orquestração com Airflow
+- Orquestração com Airflow
 
-Integração com banco relacional
+- Integração com banco relacional
 
-Modelagem para análise
+- Modelagem para análise
 
-Preparação de dados para BI
+- Preparação de dados para BI
 
 ### Próximos Passos (Evolução do Projeto)
-Implementar Data Quality Checks
+- Implementar Data Quality Checks
 
-Criar modelo dimensional (Star Schema)
+- Criar modelo dimensional (Star Schema)
 
-Implementar testes automatizados
+- Implementar testes automatizados
 
-Migrar para ambiente em nuvem (AWS ou GCP)
+- Migrar para ambiente em nuvem (AWS ou GCP)
 
-Adicionar monitoramento e logs estruturados
+- Adicionar monitoramento e logs estruturados
+- 
 
-###👩‍💻 Autora
+### 👩‍💻 Autora
 
-Isabella Sales
-Data Analyst | Data Engineer | Data Science & Big Data
+## Isabella Sales
+## Data Analyst | Data Engineer | Data Science & Big Data
