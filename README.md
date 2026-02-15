@@ -57,7 +57,7 @@ Este projeto simula um ambiente real de Engenharia de Dados.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Python
 - Apache Airflow
@@ -68,4 +68,88 @@ Este projeto simula um ambiente real de Engenharia de Dados.
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
+
+ecommerce-data-pipeline/
+│
+├── dags/
+│ └── ecommerce_pipeline.py
+│
+├── data/
+│ └── sales_orders.csv
+│
+├── scripts/
+│ ├── extract.py
+│ ├── transform.py
+│ └── load.py
+│
+├── docker-compose.yml
+├── requirements.txt
+└── README.md
+
+## 📊 KPIs Monitorados
+
+- Receita Total
+- Número de Pedidos
+- Ticket Médio
+- Receita por Região
+- Receita por Categoria
+- Evolução Mensal de Vendas
+
+---
+
+## Como Executar o Projeto
+
+### Clonar o repositório
+
+
+```bash
+git clone https://github.com/seuusuario/ecommerce-data-pipeline.git
+```
+## Subir o ambiente com Docker
+docker-compose up
+
+## Acessar o Airflow
+Acesse no navegador:
+
+http://localhost:8080
+## Usuário padrão:
+
+airflow
+## Senha padrão:
+
+airflow
+##Ativar a DAG
+
+Ativar a DAG:
+
+ecommerce_sales_pipeline
+
+### Resultados
+Este projeto demonstra:
+
+Construção de pipeline de dados ponta a ponta
+
+Orquestração com Airflow
+
+Integração com banco relacional
+
+Modelagem para análise
+
+Preparação de dados para BI
+
+### Próximos Passos (Evolução do Projeto)
+Implementar Data Quality Checks
+
+Criar modelo dimensional (Star Schema)
+
+Implementar testes automatizados
+
+Migrar para ambiente em nuvem (AWS ou GCP)
+
+Adicionar monitoramento e logs estruturados
+
+###👩‍💻 Autora
+
+Isabella Sales
+Data Analyst | Data Engineer | Data Science & Big Data
